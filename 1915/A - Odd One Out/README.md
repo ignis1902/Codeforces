@@ -1,0 +1,27 @@
+<h2><a href="https://codeforces.com/contest/1915/problem/A" target="_blank" rel="noopener noreferrer">1915A — Odd One Out</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++20 (GCC 13-64) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1915A](https://codeforces.com/contest/1915/problem/A) |
+
+## Topics
+`bitmasks` `implementation`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Odd One Out</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You are given three digits <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-1"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-2">a</span></span></span>$a$, <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-3"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-4">b</span></span></span>$b$, <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-5"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-6">c</span></span></span>$c$. Two of them are equal, but the third one is different from the other two. </p><p>Find the value that occurs exactly once.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains a single integer <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-7"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-8">t</span></span></span>$t$ (<span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-9"><span class="MJXp-mn" id="MJXp-Span-10">1</span><span class="MJXp-mo" id="MJXp-Span-11" style="margin-left: 0.333em; margin-right: 0.333em;">≤</span><span class="MJXp-mi MJXp-italic" id="MJXp-Span-12">t</span><span class="MJXp-mo" id="MJXp-Span-13" style="margin-left: 0.333em; margin-right: 0.333em;">≤</span><span class="MJXp-mn" id="MJXp-Span-14">270</span></span></span>$1 \leq t \leq 270$) — the number of test cases.</p><p>The only line of each test case contains three digits <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-15"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-16">a</span></span></span>$a$, <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-17"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-18">b</span></span></span>$b$, <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-19"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-20">c</span></span></span>$c$ (<span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-21"><span class="MJXp-mn" id="MJXp-Span-22">0</span><span class="MJXp-mo" id="MJXp-Span-23" style="margin-left: 0.333em; margin-right: 0.333em;">≤</span><span class="MJXp-mi MJXp-italic" id="MJXp-Span-24">a</span></span></span>$0 \leq a$, <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-25"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-26">b</span></span></span>$b$, <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-27"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-28">c</span><span class="MJXp-mo" id="MJXp-Span-29" style="margin-left: 0.333em; margin-right: 0.333em;">≤</span><span class="MJXp-mn" id="MJXp-Span-30">9</span></span></span>$c \leq 9$). Two of the digits are equal, but the third one is different from the other two.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output the value that occurs exactly once.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0032661041481454" id="id008726314302224081" class="input-output-copier">Copy</div></div><pre id="id0032661041481454"><div class="test-example-line test-example-line-even test-example-line-0">10</div><div class="test-example-line test-example-line-odd test-example-line-1">1 2 2</div><div class="test-example-line test-example-line-even test-example-line-2">4 3 4</div><div class="test-example-line test-example-line-odd test-example-line-3">5 5 6</div><div class="test-example-line test-example-line-even test-example-line-4">7 8 8</div><div class="test-example-line test-example-line-odd test-example-line-5">9 0 9</div><div class="test-example-line test-example-line-even test-example-line-6">3 6 3</div><div class="test-example-line test-example-line-odd test-example-line-7">2 8 2</div><div class="test-example-line test-example-line-even test-example-line-8">5 7 7</div><div class="test-example-line test-example-line-odd test-example-line-9">7 7 5</div><div class="test-example-line test-example-line-even test-example-line-10">5 7 5</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0030757781483893054" id="id003212034762292675" class="input-output-copier">Copy</div></div><pre id="id0030757781483893054">1
+3
+6
+7
+0
+6
+8
+5
+5
+7
+</pre></div></div></div>
