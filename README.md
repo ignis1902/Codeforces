@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 5 | 6 |
+| 6 | 6 |
 
 ---
 
@@ -15,9 +15,9 @@
 - [bitmasks](#bitmasks) (1)
 - [games](#games) (1)
 - [greedy](#greedy) (1)
-- [implementation](#implementation) (3)
+- [implementation](#implementation) (4)
 - [math](#math) (3)
-- [sortings](#sortings) (1)
+- [sortings](#sortings) (2)
 
 ---
 
@@ -46,6 +46,7 @@
 | 486A | [Calculating Function](https://codeforces.com/contest/486/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ignis1902/Codeforces/blob/HEAD/486/A%20-%20Calculating%20Function/solution.cpp) |
 | 703A | [Mishka and Game](https://codeforces.com/contest/703/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ignis1902/Codeforces/blob/HEAD/703/A%20-%20Mishka%20and%20Game/solution.cpp) |
 | 1915A | [Odd One Out](https://codeforces.com/contest/1915/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ignis1902/Codeforces/blob/HEAD/1915/A%20-%20Odd%20One%20Out/solution.cpp) |
+| 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ignis1902/Codeforces/blob/HEAD/2254/A%20-%20Riptide/solution.cpp) |
 
 ### math
 
@@ -59,6 +60,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ignis1902/Codeforces/blob/HEAD/2254/A%20-%20Riptide/solution.cpp) |
 | 2256A | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ignis1902/Codeforces/blob/HEAD/2256/A%20-%20Three%20Numbers%20on%20the%20Blackboard/solution.cpp) |
 
 ---
