@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 4 | 5 |
+| 5 | 6 |
 
 ---
 
@@ -16,7 +16,8 @@
 - [games](#games) (1)
 - [greedy](#greedy) (1)
 - [implementation](#implementation) (3)
-- [math](#math) (2)
+- [math](#math) (3)
+- [sortings](#sortings) (1)
 
 ---
 
@@ -52,6 +53,13 @@
 |---|---------|------------|----------|
 | 486A | [Calculating Function](https://codeforces.com/contest/486/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ignis1902/Codeforces/blob/HEAD/486/A%20-%20Calculating%20Function/solution.cpp) |
 | 1858A | [Buttons](https://codeforces.com/contest/1858/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ignis1902/Codeforces/blob/HEAD/1858/A%20-%20Buttons/solution.cpp) |
+| 2256A | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ignis1902/Codeforces/blob/HEAD/2256/A%20-%20Three%20Numbers%20on%20the%20Blackboard/solution.cpp) |
+
+### sortings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2256A | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ignis1902/Codeforces/blob/HEAD/2256/A%20-%20Three%20Numbers%20on%20the%20Blackboard/solution.cpp) |
 
 ---
 
