@@ -6,15 +6,16 @@
 
 | Total Problems | Topics |
 |---|---|
-| 6 | 6 |
+| 7 | 7 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [bitmasks](#bitmasks) (1)
+- [brute force](#brute-force) (1)
 - [games](#games) (1)
-- [greedy](#greedy) (1)
+- [greedy](#greedy) (2)
 - [implementation](#implementation) (4)
 - [math](#math) (3)
 - [sortings](#sortings) (2)
@@ -27,6 +28,12 @@
 |---|---------|------------|----------|
 | 1915A | [Odd One Out](https://codeforces.com/contest/1915/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ignis1902/Codeforces/blob/HEAD/1915/A%20-%20Odd%20One%20Out/solution.cpp) |
 
+### brute force
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2162A | [Beautiful Average](https://codeforces.com/contest/2162/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ignis1902/Codeforces/blob/HEAD/2162/A%20-%20Beautiful%20Average/solution.cpp) |
+
 ### games
 
 | # | Problem | Difficulty | Solution |
@@ -38,6 +45,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1858A | [Buttons](https://codeforces.com/contest/1858/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ignis1902/Codeforces/blob/HEAD/1858/A%20-%20Buttons/solution.cpp) |
+| 2162A | [Beautiful Average](https://codeforces.com/contest/2162/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ignis1902/Codeforces/blob/HEAD/2162/A%20-%20Beautiful%20Average/solution.cpp) |
 
 ### implementation
 
