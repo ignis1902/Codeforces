@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 19 | 9 |
+| 20 | 9 |
 
 ---
 
@@ -17,7 +17,7 @@
 - [constructive algorithms](#constructive-algorithms) (1)
 - [games](#games) (1)
 - [greedy](#greedy) (5)
-- [implementation](#implementation) (12)
+- [implementation](#implementation) (13)
 - [math](#math) (9)
 - [sortings](#sortings) (3)
 - [strings](#strings) (3)
@@ -64,6 +64,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 486A | [Calculating Function](https://codeforces.com/contest/486/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ignis1902/Codeforces/blob/HEAD/486/A%20-%20Calculating%20Function/solution.cpp) |
+| 492A | [Vanya and Cubes](https://codeforces.com/contest/492/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ignis1902/Codeforces/blob/HEAD/492/A%20-%20Vanya%20and%20Cubes/solution.cpp) |
 | 581A | [Vasya the Hipster](https://codeforces.com/contest/581/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ignis1902/Codeforces/blob/HEAD/581/A%20-%20Vasya%20the%20Hipster/solution.cpp) |
 | 703A | [Mishka and Game](https://codeforces.com/contest/703/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ignis1902/Codeforces/blob/HEAD/703/A%20-%20Mishka%20and%20Game/solution.cpp) |
 | 1692A | [Marathon](https://codeforces.com/contest/1692/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ignis1902/Codeforces/blob/HEAD/1692/A%20-%20Marathon/solution.cpp) |
